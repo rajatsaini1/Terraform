@@ -19,9 +19,16 @@ root_block_device {
   delete_on_termination = false
 }
 tags = {
-    Name = "Main1"
+    Name = "Main3"
 }
 }
+
+
+
+
+
+
+
 
 resource "aws_security_group" "prod-web-servers-sg" {
   name        = "prod-web-servers-sg"
