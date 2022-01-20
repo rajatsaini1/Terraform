@@ -19,7 +19,7 @@ root_block_device {
   delete_on_termination = false
 }
 tags = {
-    Name = "Main1"
+    Name = "Main2"
 }
 }
 
