@@ -9,7 +9,7 @@ terraform {
 }
 
 resource "aws_instance" "main"{
-instance_type = "t2.micro"
+instance_type = "r6g.large"
 ami    = "ami-0851b76e8b1bce90b"
 key_name = "MY-AWS-KEY"
 vpc_security_group_ids = [aws_security_group.prod-web-servers-sg.id]
